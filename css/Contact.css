@@ -1,0 +1,121 @@
+﻿body {
+  background: #D75D31;
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.set {
+  height: 100vh;
+}
+
+.text {
+  float: right;
+  margin-left: 5em;
+  color: white;
+  font-size: 30px;
+  align-items: center;
+  position: relative;
+  text-transform: capitalize;
+  text-align-last: center;
+  font-family: cursive;
+  font-style: italic;
+
+}
+
+.animate {
+  transition: all 1s;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  font-size: 0.6em;
+  margin: 0;
+  font-family: cursive;
+  letter-spacing: 0ch !important;
+  text-transform: none !important;
+
+}
+
+nav {
+
+  background-color: #dd5f32;
+  font-size: 2em;
+
+
+}
+
+li {
+  padding: 20px;
+  color: white;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+  color: white;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+}
